@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { createRoot } from "react-dom/client"; // <--- AGREGA ESTA LÍNEA
 import * as d3 from "d3";
 
 const P = { bg: "#0a0f1e", card: "rgba(15,23,42,0.6)", bd: "#1a2340", tx: "#e2e8f0", mt: "#64748b" };
