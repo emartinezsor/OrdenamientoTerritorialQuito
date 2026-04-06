@@ -688,3 +688,9 @@ export default function App() {
     </div>
   );
 }
+
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  const root = createRoot(rootElement);
+  root.render(<App />);
+}
